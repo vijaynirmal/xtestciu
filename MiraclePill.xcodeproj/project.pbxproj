@@ -15,6 +15,11 @@
 		F50CB84D238914D400D02112 /* MiraclePillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CB84C238914D400D02112 /* MiraclePillTests.swift */; };
 		F50CB858238914D400D02112 /* MiraclePillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CB857238914D400D02112 /* MiraclePillUITests.swift */; };
 		F5444C63238ADAD8009034EF /* successPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5444C62238ADAD8009034EF /* successPageViewController.swift */; };
+		F5A760D523904AAC00F5C673 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760D423904AAC00F5C673 /* BaseTest.swift */; };
+		F5A760D8239053F100F5C673 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760D7239053F100F5C673 /* BasePage.swift */; };
+		F5A760DB2390546A00F5C673 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DA2390546A00F5C673 /* HomePage.swift */; };
+		F5A760DD2390566F00F5C673 /* SuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DC2390566F00F5C673 /* SuccessPage.swift */; };
+		F5A760DF23905B2A00F5C673 /* BaseElementExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DE23905B2A00F5C673 /* BaseElementExtension.swift */; };
 		F5ED1AAD239021E0001BB217 /* UtilityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		F50CB857238914D400D02112 /* MiraclePillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillUITests.swift; sourceTree = "<group>"; };
 		F50CB859238914D400D02112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5444C62238ADAD8009034EF /* successPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = successPageViewController.swift; sourceTree = "<group>"; };
+		F5A760D423904AAC00F5C673 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		F5A760D7239053F100F5C673 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		F5A760DA2390546A00F5C673 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		F5A760DC2390566F00F5C673 /* SuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPage.swift; sourceTree = "<group>"; };
+		F5A760DE23905B2A00F5C673 /* BaseElementExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElementExtension.swift; sourceTree = "<group>"; };
 		F5ED1AA0238FC5A8001BB217 /* MiraclePillNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityProtocols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,11 +150,40 @@
 		F50CB856238914D400D02112 /* MiraclePillUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F50CB857238914D400D02112 /* MiraclePillUITests.swift */,
+				F5A760D92390543F00F5C673 /* Pages */,
+				F5A760D623904D7200F5C673 /* Tests */,
+				F5A760D3239045BD00F5C673 /* Base */,
 				F50CB859238914D400D02112 /* Info.plist */,
 				F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */,
 			);
 			path = MiraclePillUITests;
+			sourceTree = "<group>";
+		};
+		F5A760D3239045BD00F5C673 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F5A760D423904AAC00F5C673 /* BaseTest.swift */,
+				F5A760D7239053F100F5C673 /* BasePage.swift */,
+				F5A760DE23905B2A00F5C673 /* BaseElementExtension.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F5A760D623904D7200F5C673 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F50CB857238914D400D02112 /* MiraclePillUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F5A760D92390543F00F5C673 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				F5A760DA2390546A00F5C673 /* HomePage.swift */,
+				F5A760DC2390566F00F5C673 /* SuccessPage.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,7 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A760DB2390546A00F5C673 /* HomePage.swift in Sources */,
+				F5A760DF23905B2A00F5C673 /* BaseElementExtension.swift in Sources */,
 				F5ED1AAD239021E0001BB217 /* UtilityProtocols.swift in Sources */,
+				F5A760DD2390566F00F5C673 /* SuccessPage.swift in Sources */,
+				F5A760D8239053F100F5C673 /* BasePage.swift in Sources */,
+				F5A760D523904AAC00F5C673 /* BaseTest.swift in Sources */,
 				F50CB858238914D400D02112 /* MiraclePillUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
