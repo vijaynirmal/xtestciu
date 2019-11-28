@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MiraclePill" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="NVc-c0-vIe">
+                                <rect key="frame" x="162" y="64" width="90" height="90"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACLE PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQf-0p-ltJ">
+                                <rect key="frame" x="147.66666666666666" y="181" width="118.99999999999997" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="headerLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YG2-Hz-Yos">
+                                <rect key="frame" x="187.66666666666666" y="217" width="39" height="20.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="price"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FULL NAME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TgG-3j-tBH">
+                                <rect key="frame" x="66" y="262" width="68" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="fullName"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ADDRESS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wp-WQ-gEX" userLabel="ADDRESS">
+                                <rect key="frame" x="66" y="335" width="56" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="addressLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COUNTRY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbc-fp-JZv" userLabel="COUNTRY">
+                                <rect key="frame" x="66" y="411" width="59" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="countryLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RIo-yw-l2C" userLabel="FULL NAME TEXT INPUT">
+                                <rect key="frame" x="66" y="285" width="293" height="30"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <accessibility key="accessibilityConfiguration" identifier="fullnameTxtBox"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="name"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="fullnameTxtBox"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Address" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8vH-Sw-VRT" userLabel="ADDRESS TEXT INPUT">
+                                <rect key="frame" x="66" y="358" width="293" height="30"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="street-address"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="addressTxtBox"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Zip Code" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KC5-YC-Cie" userLabel="ZIP/POSTAL CODE TEXT INPUT">
+                                <rect key="frame" x="66" y="515" width="293" height="30"/>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="postal-code"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="zipPostalCodeTxtBox"/>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buyNowBtn" translatesAutoresizingMaskIntoConstraints="NO" id="DVl-8w-ZXK">
+                                <rect key="frame" x="94.666666666666686" y="608" width="225" height="45"/>
+                                <gestureRecognizers/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="buyNowBtn"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="c9r-pn-CCU" appends="YES" id="K2H-ec-2Qs"/>
+                                </connections>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ZIP/POSTAL CODE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mgt-ow-BDD" userLabel="ZIP/POSTAL CODE">
+                                <rect key="frame" x="66" y="492" width="106" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="zipPostalCOdeLabel"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e77-nJ-39A">
+                                <rect key="frame" x="66" y="434" width="147" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Choose Your Country"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="countryPickerBtn"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="countryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DNB-cD-HeO"/>
+                                </connections>
+                            </button>
+                            <pickerView hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H9V-pF-5Wp" userLabel="COUNTRY PICKER">
+                                <rect key="frame" x="237" y="411" width="143" height="121"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="countryPicker"/>
+                                </userDefinedRuntimeAttributes>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DVl-8w-ZXK" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="8bh-dm-WST"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RIo-yw-l2C" secondAttribute="trailing" constant="43" id="HmG-OI-cNz"/>
+                            <constraint firstItem="RIo-yw-l2C" firstAttribute="top" secondItem="YG2-Hz-Yos" secondAttribute="bottom" constant="47.333333333333343" id="Hv0-sG-0Uh"/>
+                            <constraint firstItem="NVc-c0-vIe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="JNF-H4-M8N"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RIo-yw-l2C" secondAttribute="trailing" constant="55" id="Puc-Bs-Dyh"/>
+                            <constraint firstItem="KC5-YC-Cie" firstAttribute="leading" secondItem="8vH-Sw-VRT" secondAttribute="leading" id="ROp-FE-qKu"/>
+                            <constraint firstItem="bQf-0p-ltJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Vgo-Wj-hWB"/>
+                            <constraint firstItem="YG2-Hz-Yos" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aXs-Yw-eUC"/>
+                            <constraint firstItem="YG2-Hz-Yos" firstAttribute="top" secondItem="bQf-0p-ltJ" secondAttribute="bottom" constant="15" id="bte-bA-WQ4"/>
+                            <constraint firstItem="KC5-YC-Cie" firstAttribute="top" secondItem="YG2-Hz-Yos" secondAttribute="bottom" constant="277.33333333333337" id="cDq-lf-3I3"/>
+                            <constraint firstItem="8vH-Sw-VRT" firstAttribute="top" secondItem="RIo-yw-l2C" secondAttribute="bottom" constant="43" id="ihR-3w-GsA"/>
+                            <constraint firstItem="8vH-Sw-VRT" firstAttribute="leading" secondItem="RIo-yw-l2C" secondAttribute="leading" id="khU-EZ-Lzx"/>
+                            <constraint firstItem="KC5-YC-Cie" firstAttribute="trailing" secondItem="8vH-Sw-VRT" secondAttribute="trailing" id="pPt-IC-7c6"/>
+                            <constraint firstItem="RIo-yw-l2C" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="66" id="thC-fH-xxc"/>
+                            <constraint firstItem="NVc-c0-vIe" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="vuL-sY-ePH"/>
+                            <constraint firstItem="bQf-0p-ltJ" firstAttribute="top" secondItem="NVc-c0-vIe" secondAttribute="bottom" constant="27" id="xac-be-QkA"/>
+                            <constraint firstItem="8vH-Sw-VRT" firstAttribute="trailing" secondItem="RIo-yw-l2C" secondAttribute="trailing" id="zMg-RV-4gv"/>
+                            <constraint firstItem="DVl-8w-ZXK" firstAttribute="top" secondItem="YG2-Hz-Yos" secondAttribute="bottom" constant="370.33333333333337" id="zY9-MD-3Mo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="8vH-Sw-VRT" id="Qp4-8B-hWD"/>
+                        <outlet property="buyNowButton" destination="DVl-8w-ZXK" id="nXe-oG-XvL"/>
+                        <outlet property="countryPicker" destination="H9V-pF-5Wp" id="wUg-Jc-ddw"/>
+                        <outlet property="countryPickerButton" destination="e77-nJ-39A" id="91G-5D-hX0"/>
+                        <outlet property="fullName" destination="RIo-yw-l2C" id="6RV-Bl-Jzh"/>
+                        <outlet property="zipCode" destination="KC5-YC-Cie" id="vhJ-V0-4Eh"/>
+                        <segue destination="m3A-wT-N2M" kind="presentation" identifier="mySegue" id="bz4-0y-oSG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="c9r-pn-CCU">
+                    <connections>
+                        <action selector="onTapBuyNowButton:" destination="BYZ-38-t0r" id="ii0-fp-bkb"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="115.7608695652174"/>
+        </scene>
+        <!--Success Page-->
+        <scene sceneID="fVs-jH-GqE">
+            <objects>
+                <viewController title="Success Page" id="m3A-wT-N2M" customClass="successPageViewController" customModule="MiraclePill" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="phy-mM-nvd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="6hR-a1-S8b">
+                                <rect key="frame" x="117" y="135" width="180" height="180"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="successImage"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Successfully Placed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gO-QS-thB">
+                                <rect key="frame" x="106.66666666666669" y="331" width="201" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="successTxt"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5gO-QS-thB" firstAttribute="top" secondItem="6hR-a1-S8b" secondAttribute="bottom" constant="16" id="JSA-A2-rX4"/>
+                            <constraint firstItem="5gO-QS-thB" firstAttribute="centerX" secondItem="RBJ-1y-69k" secondAttribute="centerX" id="fKA-fn-WEh"/>
+                            <constraint firstItem="6hR-a1-S8b" firstAttribute="top" secondItem="RBJ-1y-69k" secondAttribute="top" constant="115" id="j2M-Sb-nYl"/>
+                            <constraint firstItem="6hR-a1-S8b" firstAttribute="centerX" secondItem="RBJ-1y-69k" secondAttribute="centerX" id="ln1-8O-VtN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RBJ-1y-69k"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KAc-Zf-3Wm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791.304347826087" y="115.7608695652174"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
+        <image name="miraclePillEmoji" width="90" height="90"/>
+        <image name="successIndicator" width="180" height="180"/>
+    </resources>
+</document>
