@@ -19,6 +19,7 @@ class BaseTest : XCTestCase {
     }
     
     override func tearDown() {
+        takeScreenShot(name: "Success page")
         app.terminate()
         super.tearDown()
     }
@@ -26,4 +27,22 @@ class BaseTest : XCTestCase {
     func getApp() -> XCUIApplication {
         return self.app
     }
-}
+    
+    func tapDoneBtn() {
+        app.keyboards.buttons["Done"].tap()
+    }
+    
+    func assertExists(element:XCUIElement){
+        XCTAssert(element.exists)
+    }
+    
+    func verifyLabelTxt(element:XCUIElement,textToVerify:String) -> Bool{
+        XCTContext.runActivity(named: "Verify Label Text"){_ in
+          }
+        return element.label == textToVerify
+    }
+    
+    func asserTrue(expression:Bool){
+        XCTAssertTrue(expression)
+    }
+    }

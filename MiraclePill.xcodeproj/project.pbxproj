@@ -150,13 +150,21 @@
 		F50CB856238914D400D02112 /* MiraclePillUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F5126EE02391A510009BF424 /* Util */,
 				F5A760D92390543F00F5C673 /* Pages */,
 				F5A760D623904D7200F5C673 /* Tests */,
 				F5A760D3239045BD00F5C673 /* Base */,
 				F50CB859238914D400D02112 /* Info.plist */,
-				F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */,
 			);
 			path = MiraclePillUITests;
+			sourceTree = "<group>";
+		};
+		F5126EE02391A510009BF424 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		F5A760D3239045BD00F5C673 /* Base */ = {

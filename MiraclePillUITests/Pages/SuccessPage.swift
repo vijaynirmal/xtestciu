@@ -7,7 +7,11 @@
 //
 
 import Foundation
+import XCTest
 
-class SuccessPage {
+class SuccessPage : BasePage{
     
+    func getsuccessTxt() -> XCUIElement{
+        return label(name: "successTxt")
+    }
 }

@@ -14,4 +14,18 @@ class HomePage : BasePage {
     func getFullNameTextField() -> XCUIElement{
     return textField(name: "fullnameTxtBox")
     }
+    
+    func getAddressTextField() -> XCUIElement{
+        return textField(name: "addressTxtBox")
+    }
+    
+    func getZipTextField() -> XCUIElement{
+        return textField(name: "zipPostalCodeTxtBox")
+    }
+    
+    func tapBuyNowBtn() {
+        XCUIApplication().images["buyNowBtn"].tap()
+    }
+    
+    
 }

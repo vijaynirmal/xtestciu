@@ -11,32 +11,36 @@ import XCTest
 class MiraclePillUITests: BaseTest {
 
     var homePage = HomePage()
+    var successPage = SuccessPage()
+    
     
         func testExample() {
         
             XCUIDevice.shared.orientation = .faceUp
             
-            let app = XCUIApplication()
-            
-            XCTAssert(homePage.getFullNameTextField().exists)
+            assertExists(element: homePage.getFullNameTextField())
             homePage.getFullNameTextField().tap()
             homePage.getFullNameTextField().typeText("Vijay")
             
-            XCTAssertTrue(app.textFields["addressTxtBox"].exists)
-            app.textFields["addressTxtBox"].tap()
-            app.textFields["addressTxtBox"].typeText("Prisha Homes")
+            assertExists(element: homePage.getAddressTextField())
+            homePage.getAddressTextField().tap()
+            homePage.getAddressTextField().typeText("Prisha Homes")
             
             
-            app.keyboards.buttons["Done"].tap()
+            tapDoneBtn()
             
-            XCTAssertFalse(!app.textFields["zipPostalCodeTxtBox"].exists)
-            XCTAssert(app.textFields["zipPostalCodeTxtBox"].exists)
-            app.textFields["zipPostalCodeTxtBox"].tap()
-            app.textFields["zipPostalCodeTxtBox"].typeText("600100")
+            assertExists(element: homePage.getZipTextField())
+            homePage.getZipTextField().tap()
+            homePage.getZipTextField().typeText("600100")
             
-            app.keyboards.buttons["Done"].tap()
+            tapDoneBtn()
             
-            app.images["buyNowBtn"].tap()
+            homePage.tapBuyNowBtn()
+            
+            assertExists(element: successPage.getsuccessTxt())
+            
+            asserTrue(expression:verifyLabelTxt(element: successPage.getsuccessTxt(), textToVerify: "Order Successfully Placed"))
+            
             
     }
 

@@ -11,7 +11,6 @@ import XCTest
 
 class BasePage {
     
-    lazy var homePage = HomePage()
     lazy var baseTest = BaseTest()
     
     func textField(name:String) -> XCUIElement {
@@ -20,6 +19,10 @@ class BasePage {
     
     func button(name:String) -> XCUIElement {
         return baseTest.getApp().buttons[name]
+    }
+    
+    func label(name:String) -> XCUIElement {
+        return baseTest.getApp().staticTexts[name]
     }
    
 }
