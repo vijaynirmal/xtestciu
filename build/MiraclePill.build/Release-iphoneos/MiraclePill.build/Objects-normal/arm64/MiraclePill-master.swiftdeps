@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "7135ca4f9e8c7c82d236e5e3e54f14fb"
+build_time: [1575103992, 55462000]
+inputs:
+  "/Users/sjvijay/Documents/core-ios/MiraclePill/MiraclePill/successPageViewController.swift": [9223372036, 854775807]
+  "/Users/sjvijay/Documents/core-ios/MiraclePill/MiraclePill/ViewController.swift": [9223372036, 854775807]
+  "/Users/sjvijay/Documents/core-ios/MiraclePill/MiraclePill/AppDelegate.swift": [9223372036, 854775807]

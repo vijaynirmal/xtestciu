@@ -1,0 +1,3 @@
+Standard output and standard error from com.sjvijay.MiraclePill with process ID 4416 beginning at 15:48:32.731
+
+2019-11-30 15:48:32.905 MiraclePill[4416:1917991] Failed to set (keyPath) user defined inspected property on (UIImageView): [<UIImageView 0x100b1dfc0> setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key keyPath.

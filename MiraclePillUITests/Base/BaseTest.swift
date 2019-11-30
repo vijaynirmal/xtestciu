@@ -37,9 +37,11 @@ class BaseTest : XCTestCase {
     }
     
     func verifyLabelTxt(element:XCUIElement,textToVerify:String) -> Bool{
+        var result = Bool()
         XCTContext.runActivity(named: "Verify Label Text"){_ in
+            result = (element.label == textToVerify)
           }
-        return element.label == textToVerify
+        return result
     }
     
     func asserTrue(expression:Bool){

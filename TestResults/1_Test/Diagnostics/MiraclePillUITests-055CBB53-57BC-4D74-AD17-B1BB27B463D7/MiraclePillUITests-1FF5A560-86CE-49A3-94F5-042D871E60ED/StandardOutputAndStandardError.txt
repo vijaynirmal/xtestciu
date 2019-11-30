@@ -1,0 +1,81 @@
+2019-11-30 15:48:30.356587+0530 MiraclePillUITests-Runner[4413:1917927] Running tests...
+Test Suite 'All tests' started at 2019-11-30 15:48:30.902
+Test Suite 'MiraclePillUITests.xctest' started at 2019-11-30 15:48:30.903
+Test Suite 'MiraclePillUITests' started at 2019-11-30 15:48:30.904
+Test Case '-[MiraclePillUITests.MiraclePillUITests testExample]' started.
+    t =     0.00s Start Test at 2019-11-30 15:48:30.905
+    t =     0.04s Set Up
+    t =     0.05s     Open com.sjvijay.MiraclePill
+    t =     0.09s         Launch com.sjvijay.MiraclePill
+    t =     2.28s             Wait for com.sjvijay.MiraclePill to idle
+    t =     3.37s Set device orientation to FaceUp
+    t =     3.91s Checking existence of `"fullnameTxtBox" TextField`
+    t =     3.95s Tap "fullnameTxtBox" TextField
+    t =     3.95s     Wait for com.sjvijay.MiraclePill to idle
+    t =     3.98s     Find the "fullnameTxtBox" TextField
+    t =     3.99s         Check for interrupting elements affecting "fullnameTxtBox" TextField
+    t =     4.00s     Synthesize event
+    t =     4.10s     Wait for com.sjvijay.MiraclePill to idle
+    t =     4.23s Type 'Vijay' into "fullnameTxtBox" TextField
+    t =     4.23s     Wait for com.sjvijay.MiraclePill to idle
+    t =     4.71s     Find the "fullnameTxtBox" TextField
+    t =     4.80s         Check for interrupting elements affecting "fullnameTxtBox" TextField
+    t =     4.80s     Synthesize event
+    t =     4.92s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.04s Checking existence of `"addressTxtBox" TextField`
+    t =     5.08s Tap "addressTxtBox" TextField
+    t =     5.08s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.11s     Find the "addressTxtBox" TextField
+    t =     5.15s         Check for interrupting elements affecting "addressTxtBox" TextField
+    t =     5.15s     Synthesize event
+    t =     5.25s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.32s Type 'Prisha Homes' into "addressTxtBox" TextField
+    t =     5.32s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.36s     Find the "addressTxtBox" TextField
+    t =     5.40s         Check for interrupting elements affecting "addressTxtBox" TextField
+    t =     5.40s     Synthesize event
+    t =     5.66s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.70s Tap "Done" Button
+    t =     5.70s     Wait for com.sjvijay.MiraclePill to idle
+    t =     5.73s     Find the "Done" Button
+    t =     5.76s         Check for interrupting elements affecting "Done" Button
+    t =     5.77s     Synthesize event
+    t =     5.87s     Wait for com.sjvijay.MiraclePill to idle
+    t =     6.42s Checking existence of `"zipPostalCodeTxtBox" TextField`
+    t =     6.44s Tap "zipPostalCodeTxtBox" TextField
+    t =     6.44s     Wait for com.sjvijay.MiraclePill to idle
+    t =     6.47s     Find the "zipPostalCodeTxtBox" TextField
+    t =     6.49s         Check for interrupting elements affecting "zipPostalCodeTxtBox" TextField
+    t =     6.50s     Synthesize event
+    t =     6.58s     Wait for com.sjvijay.MiraclePill to idle
+    t =     7.16s Type '600100' into "zipPostalCodeTxtBox" TextField
+    t =     7.16s     Wait for com.sjvijay.MiraclePill to idle
+    t =     7.39s     Find the "zipPostalCodeTxtBox" TextField
+    t =     7.45s         Check for interrupting elements affecting "zipPostalCodeTxtBox" TextField
+    t =     7.46s     Synthesize event
+    t =     7.59s     Wait for com.sjvijay.MiraclePill to idle
+    t =     7.62s Tap "Done" Button
+    t =     7.63s     Wait for com.sjvijay.MiraclePill to idle
+    t =     7.66s     Find the "Done" Button
+    t =     7.70s         Check for interrupting elements affecting "Done" Button
+    t =     7.70s     Synthesize event
+    t =     7.79s     Wait for com.sjvijay.MiraclePill to idle
+    t =     8.36s Tap "buyNowBtn" Image
+    t =     8.36s     Wait for com.sjvijay.MiraclePill to idle
+    t =     8.39s     Find the "buyNowBtn" Image
+    t =     8.41s         Check for interrupting elements affecting "buyNowBtn" Image
+    t =     8.42s     Synthesize event
+    t =     8.50s     Wait for com.sjvijay.MiraclePill to idle
+    t =     9.02s Checking existence of `"successTxt" StaticText`
+    t =     9.03s Verify Label Text
+    t =     9.03s     Find the "successTxt" StaticText
+    t =     9.04s Tear Down
+    t =     9.09s     Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png'
+    t =     9.09s     Terminate com.sjvijay.MiraclePill:4416
+Test Case '-[MiraclePillUITests.MiraclePillUITests testExample]' passed (10.136 seconds).
+Test Suite 'MiraclePillUITests' passed at 2019-11-30 15:48:41.042.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.138) seconds
+Test Suite 'MiraclePillUITests.xctest' passed at 2019-11-30 15:48:41.048.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.145) seconds
+Test Suite 'All tests' passed at 2019-11-30 15:48:41.055.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.153) seconds

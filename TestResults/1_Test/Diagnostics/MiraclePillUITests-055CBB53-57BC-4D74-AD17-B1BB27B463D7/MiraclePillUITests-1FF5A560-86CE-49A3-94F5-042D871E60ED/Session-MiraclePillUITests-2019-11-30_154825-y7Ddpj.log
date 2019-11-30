@@ -1,0 +1,545 @@
+15:48:25.612 xcodebuild[4414:239449] Beginning test session MiraclePillUITests-D55C8C16-8553-40FB-8236-25AD1DCE9909 at 2019-11-30 15:48:25.612 with Xcode 10G8 on target 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> {
+		deviceSerialNumber:         C39SP8Z1HFY9
+		identifier:                 fa406f2531988baca17b06cce1c139237b99c7d6
+		deviceClass:                iPhone
+		deviceName:                 Vijay Nirmal’s iPhone
+		deviceIdentifier:           fa406f2531988baca17b06cce1c139237b99c7d6
+		productVersion:             12.2
+		buildVersion:               16E227
+		deviceSoftwareVersion:      12.2 (16E227)
+		deviceArchitecture:         arm64
+		deviceTotalCapacity:        119361171456
+		deviceAvailableCapacity:    32616931328
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsPaired:             YES
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		isPasscodeLocked:           NO
+		deviceType:                 <DVTDeviceType:0x7fdf3fb4bdb0 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              (null)
+		provisioningProfiles:      (null)
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	bootArgs:                  (null)
+		nextBootArgs:              (null)
+		connected:                 yes
+		isWirelessEnabled:         no
+		connectionType:            direct
+		hostname:                  (null)
+		bonjourServiceName:        58:40:4e:db:8c:d5@fe80::5a40:4eff:fedb:8cd5._apple-mobdev2._tcp.local.
+		} (12.2 (16E227))
+15:48:25.613 xcodebuild[4414:239449] 	/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild
+test
+-project
+MiraclePill.xcodeproj
+-scheme
+MiraclePillUITests
+-destination
+platform=iOS,id=fa406f2531988baca17b06cce1c139237b99c7d6
+-resultBundlePath
+TestResults
+15:48:25.613 xcodebuild[4414:239449] Launching with Xcode.IDEFoundation.Launcher.PosixSpawn
+15:48:25.614 xcodebuild[4414:239461] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.615 xcodebuild[4414:239449] Test standard output and standard error is at /Users/sjvijay/Documents/core-ios/MiraclePill/TestResults/1_Test/Diagnostics/MiraclePillUITests-055CBB53-57BC-4D74-AD17-B1BB27B463D7/MiraclePillUITests-1FF5A560-86CE-49A3-94F5-042D871E60ED/StandardOutputAndStandardError.txt
+15:48:25.623 xcodebuild[4414:239449] Setting up test runner session
+15:48:25.623 xcodebuild[4414:239449] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    "MiraclePillUITests-Runner",
+    backboardd,
+    xctest,
+    MiraclePill
+)
+15:48:25.631 xcodebuild[4414:239678] Connecting to mobile device: fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.644 xcodebuild[4414:239678] Starting session with mobile device
+15:48:25.728 xcodebuild[4414:239461] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.771 xcodebuild[4414:239449] Finished requesting crash reports. Continuing with testing.
+15:48:25.771 xcodebuild[4414:239678] Starting test manager service on mobile device.
+15:48:25.775 xcodebuild[4414:239449] Launch session started.
+15:48:25.778 xcodebuild[4414:239679] Received connection for test runner session
+15:48:25.778 xcodebuild[4414:239679] Listening for proxy connection request from the test bundle
+15:48:25.778 xcodebuild[4414:239449] Test runner session acquired connection.
+15:48:25.778 xcodebuild[4414:239449] Waiting for test process to launch.
+15:48:25.778 xcodebuild[4414:239679] Initiating session with identifier: D55C8C16-8553-40FB-8236-25AD1DCE9909
+15:48:25.780 xcodebuild[4414:239679] Got reply to session initiation request with identifier D55C8C16-8553-40FB-8236-25AD1DCE9909 (result:error): 29: (null)
+15:48:25.938 xcodebuild[4414:239461] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.939 xcodebuild[4414:239461] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.941 xcodebuild[4414:239675] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.983 xcodebuild[4414:239675] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.993 xcodebuild[4414:239675] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.994 xcodebuild[4414:239675] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:25.995 xcodebuild[4414:239680] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.033 xcodebuild[4414:239680] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.043 xcodebuild[4414:239680] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.044 xcodebuild[4414:239675] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: MISProvisioningProfileInstalled
+15:48:26.044 xcodebuild[4414:239680] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.045 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> installing com.apple.test.MiraclePillUITests-Runner using MobileInstall
+15:48:26.046 xcodebuild[4414:239678] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.090 xcodebuild[4414:239678] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.097 xcodebuild[4414:239678] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.099 xcodebuild[4414:239678] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.100 xcodebuild[4414:239675] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.143 xcodebuild[4414:239675] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.147 xcodebuild[4414:239675] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.148 xcodebuild[4414:239675] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.151 xcodebuild[4414:239685] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.151 xcodebuild[4414:239464] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> app uninstall set - {(
+)}
+15:48:26.151 xcodebuild[4414:239464] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> app install set - {(
+    <DVTFilePath:0x7fdf3fe64c10:'/Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePillUITests-Runner.app'>
+)}
+15:48:26.190 xcodebuild[4414:239685] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.280 xcodebuild[4414:239685] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.282 xcodebuild[4414:239685] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.680 xcodebuild[4414:239679] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: MISProvisioningProfileInstalled
+15:48:26.682 xcodebuild[4414:239675] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.770 xcodebuild[4414:239675] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.784 xcodebuild[4414:239675] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:26.786 xcodebuild[4414:239675] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.095 xcodebuild[4414:239461] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.141 xcodebuild[4414:239461] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.144 xcodebuild[4414:239464] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.144 xcodebuild[4414:239464] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.144 xcodebuild[4414:239464] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.144 xcodebuild[4414:239464] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.145 xcodebuild[4414:239678] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.145 xcodebuild[4414:239678] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.145 xcodebuild[4414:239678] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.145 xcodebuild[4414:239675] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.145 xcodebuild[4414:239675] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.146 xcodebuild[4414:239675] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.146 xcodebuild[4414:239675] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.application_installed
+15:48:27.433 xcodebuild[4414:239461] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.434 xcodebuild[4414:239461] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.436 xcodebuild[4414:239786] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.442 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> fetching applications...
+15:48:27.473 xcodebuild[4414:239786] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.789 xcodebuild[4414:239786] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.791 xcodebuild[4414:239786] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.792 xcodebuild[4414:239679] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.840 xcodebuild[4414:239679] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.921 xcodebuild[4414:239679] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.923 xcodebuild[4414:239679] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.924 xcodebuild[4414:239788] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:27.961 xcodebuild[4414:239788] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:28.271 xcodebuild[4414:239788] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:28.272 xcodebuild[4414:239788] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:28.280 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> done fetching applications...
+15:48:28.281 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> remoteExecutable setInstalledPath:/private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app
+
+15:48:28.282 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> configuring for testing on device
+15:48:28.283 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> updating test configuration with device paths
+15:48:28.285 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> updated test configuration at /Users/sjvijay/Documents/core-ios/MiraclePill/TestResults/1_Test/Diagnostics/MiraclePillUITests-055CBB53-57BC-4D74-AD17-B1BB27B463D7/MiraclePillUITests-1FF5A560-86CE-49A3-94F5-042D871E60ED/LaunchSessions/D55C8C16-8553-40FB-8236-25AD1DCE9909/remote-container/tmp/MiraclePillUITests-D55C8C16-8553-40FB-8236-25AD1DCE9909.xctestconfiguration with device paths: <XCTestConfiguration: 0x7fdf3fca67c0>
+	                  testBundleURL:file:///private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/PlugIns/MiraclePillUITests.xctest
+	         testBundleRelativePath:(null)
+	              productModuleName:MiraclePillUITests
+	                    testsToSkip:(null)
+	                     testsToRun:(null)
+	             reportResultsToIDE:YES
+	               testsDrivenByIDE:no
+	              sessionIdentifier:D55C8C16-8553-40FB-8236-25AD1DCE9909
+	      disablePerformanceMetrics:no
+	treatMissingBaselinesAsFailures:no
+	                baselineFileURL:(null)
+	       baselineFileRelativePath:(null)
+	          targetApplicationPath:/Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app
+	      targetApplicationBundleID:com.sjvijay.MiraclePill
+	 testApplicationDependencies:
+{
+    "com.apple.test.MiraclePillUITests-Runner" = "/Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePillUITests-Runner.app";
+    "com.sjvijay.MiraclePill" = "/Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app";
+}
+	 testApplicationUserOverrides:(null)
+	     targetApplicationArguments:
+	   targetApplicationEnvironment:
+{
+}
+	               reportActivities:YES
+	       testsMustRunOnMainThread:YES
+	         initializeForUITesting:YES
+	 aggregateStatisticsBeforeCrash:
+{
+    XCSuiteRecordsKey =     {
+    };
+}
+	        automationFrameworkPath:/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+	 bridgedAutomationFrameworkPath:(null)
+	                     emitOSLogs:no
+	       systemAttachmentLifetime:1
+	         userAttachmentLifetime:1
+	   gatherLocalizableStringsData:no
+	          testExecutionOrdering:lexical
+	    randomExecutionOrderingSeed:(null)
+
+15:48:28.285 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> uploading test configuration to app container
+15:48:28.286 xcodebuild[4414:239788] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:28.326 xcodebuild[4414:239788] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:28.602 xcodebuild[4414:239464] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.keybagd.lock_status
+15:48:28.881 xcodebuild[4414:239678] Device fa406f2531988baca17b06cce1c139237b99c7d6 received darwin note: com.apple.mobile.keybagd.lock_status
+15:48:29.977 xcodebuild[4414:239788] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:29.978 xcodebuild[4414:239788] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:29.981 xcodebuild[4414:239786] Requesting fa406f2531988baca17b06cce1c139237b99c7d6: <DTDKCopyValueRequest: 0x7fdf4019bae0> { domain: (null), key: PasswordProtected}
+15:48:29.982 xcodebuild[4414:239786] Failed (will try again with session) fa406f2531988baca17b06cce1c139237b99c7d6: <DTDKCopyValueRequest: 0x7fdf4019bae0> { domain: (null), key: PasswordProtected}
+15:48:30.043 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> updating test process environment variables
+15:48:30.044 xcodebuild[4414:239680] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> updated testing environment variables {
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks:";
+    "DYLD_INSERT_LIBRARIES" = "/Developer/usr/lib/libMainThreadChecker.dylib";
+    "DYLD_LIBRARY_PATH" = "/usr/lib/swift:/private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks";
+    "MTC_CRASH_ON_REPORT" = 1;
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/609A039C-7F98-44E3-92DE-9FA2E38C6E8B/tmp/MiraclePillUITests-D55C8C16-8553-40FB-8236-25AD1DCE9909.xctestconfiguration";
+}
+15:48:30.045 xcodebuild[4414:239786] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.045 xcodebuild[4414:239786] Requesting (with session) fa406f2531988baca17b06cce1c139237b99c7d6: <DTDKCopyValueRequest: 0x7fdf4019bae0> { domain: (null), key: PasswordProtected}
+15:48:30.046 xcodebuild[4414:239786] Request succeeded fa406f2531988baca17b06cce1c139237b99c7d6: <DTDKCopyValueRequest: 0x7fdf4019bae0> { domain: (null), key: PasswordProtected} (0)
+15:48:30.046 xcodebuild[4414:239786] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.048 xcodebuild[4414:239788] Started connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.102 xcodebuild[4414:239788] Started session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.107 xcodebuild[4414:239788] Ending session with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.108 xcodebuild[4414:239788] Ending connection with fa406f2531988baca17b06cce1c139237b99c7d6
+15:48:30.201 xcodebuild[4414:239449] Test process runnable PID is 4413.
+2019-11-30 15:48:30.356587+0530 MiraclePillUITests-Runner[4413:1917927] Running tests...
+15:48:30.380 xcodebuild[4414:239786] Handling proxy channel request from test runner
+15:48:30.381 xcodebuild[4414:239786] Test runner is ready, running protocol 30, requires at least version 7. Control framework is running 30 and requires at least 7
+15:48:30.381 xcodebuild[4414:239449] Test runner session successfully initiated.
+15:48:30.381 xcodebuild[4414:239449] Whitelisting test process ID 4413
+15:48:30.382 xcodebuild[4414:239449] Got whitelisting response from test daemon: Success
+15:48:30.383 xcodebuild[4414:239449] Registering/updating daemon-based crash report observer for process names (
+    SpringBoard,
+    "MiraclePillUITests-Runner",
+    backboardd,
+    xctest,
+    MiraclePill
+)
+15:48:30.383 xcodebuild[4414:239449] Telling test runner to start executing tests.
+15:48:30.389 MiraclePillUITests-Runner[4413:1917951] _IDE_startExecutingTestPlanWithProtocolVersion:30
+15:48:30.389 MiraclePillUITests-Runner[4413:1917951] <XCTWaiter: 0x2800fd480, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.389 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fd480, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.389 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fd480, state: XCTWaiterStateInProgress>.
+15:48:30.389 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fd480, state: XCTWaiterStateSucceeded> cleaning up `IDE session ready for test plan`
+15:48:30.361 MiraclePillUITests-Runner[4413:1917927] Linked XCTest.framework from /var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks/XCTest.framework/XCTest, built with Xcode 1020(10G1d), modified on Friday, November 29, 2019 at 12:19:05 AM India Standard Time
+XCTest.framework bundle version: 14490.71
+15:48:30.362 MiraclePillUITests-Runner[4413:1917927] System uptime: 5d 20:20:41
+15:48:30.362 MiraclePillUITests-Runner[4413:1917927] Process arguments: (
+    "/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/MiraclePillUITests-Runner",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+15:48:30.362 MiraclePillUITests-Runner[4413:1917927] Process environment: {
+    "CA_ASSERT_MAIN_THREAD_TRANSACTIONS" = 0;
+    "CA_DEBUG_TRANSACTIONS" = 0;
+    "CFFIXED_USER_HOME" = "/private/var/mobile/Containers/Data/Application/609A039C-7F98-44E3-92DE-9FA2E38C6E8B";
+    CLASSIC = 1;
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks:";
+    "DYLD_LIBRARY_PATH" = "/usr/lib/swift:/private/var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks";
+    HOME = "/private/var/mobile/Containers/Data/Application/609A039C-7F98-44E3-92DE-9FA2E38C6E8B";
+    LOGNAME = mobile;
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/sh";
+    "SQLITE_ENABLE_THREAD_ASSERTIONS" = 1;
+    TMPDIR = "/private/var/mobile/Containers/Data/Application/609A039C-7F98-44E3-92DE-9FA2E38C6E8B/tmp/";
+    USER = mobile;
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/609A039C-7F98-44E3-92DE-9FA2E38C6E8B/tmp/MiraclePillUITests-D55C8C16-8553-40FB-8236-25AD1DCE9909.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.apple.test.MiraclePillUITests-Runner[0xea06][62]";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0:0";
+}
+15:48:30.363 MiraclePillUITests-Runner[4413:1917927] App Sandbox active: YES
+15:48:30.363 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Acquiring IDE transport' with timeout 60.00
+15:48:30.365 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Exchange protocol versions with daemon' with timeout 15.00
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0ae0, state: XCTWaiterStateSucceeded> entering wait loop for 15.00s with expectations: `Exchange protocol versions with daemon`
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0ae0, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f0ae0, state: XCTWaiterStateInProgress>.
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0ae0, state: XCTWaiterStateSucceeded> cleaning up `Exchange protocol versions with daemon`
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] Got daemon protocol version 26
+15:48:30.367 MiraclePillUITests-Runner[4413:1917927] Requesting IDE connection transport
+15:48:30.368 MiraclePillUITests-Runner[4413:1917952] Creating transport with received transport data
+15:48:30.368 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f07d0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Acquiring IDE transport`
+15:48:30.368 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f07d0, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.368 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f07d0, state: XCTWaiterStateInProgress>.
+15:48:30.368 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f07d0, state: XCTWaiterStateSucceeded> cleaning up `Acquiring IDE transport`
+15:48:30.368 MiraclePillUITests-Runner[4413:1917927] Creating connection with transport <DTXFileDescriptorTransport: 0x2829f01c0>
+15:48:30.369 MiraclePillUITests-Runner[4413:1917927] Creating the proxy channel with connection <DTXConnection 0x283ef9000 : x1>
+15:48:30.389 xcodebuild[4414:239449] Starting test plan, clearing initialization timeout timer.
+15:48:30.392 MiraclePillUITests-Runner[4413:1917927] Initializing for UI testing.
+15:48:30.395 MiraclePillUITests-Runner[4413:1917927] Linked XCTAutomationSupport.framework from /var/containers/Bundle/Application/F26DB71A-5BD2-4DFB-BD2F-C5282A13C639/MiraclePillUITests-Runner.app/Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport, built with Xcode 1020(10G1d), modified on Friday, November 29, 2019 at 12:19:04 AM India Standard Time
+XCTAutomationSupport.framework bundle version: 14490.71
+15:48:30.396 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Loading Accessibility' with timeout 70.00
+15:48:30.396 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0d00, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Loading Accessibility`
+15:48:30.857 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800f0d00, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.858 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0d00, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.858 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f0d00, state: XCTWaiterStateInProgress>.
+15:48:30.858 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f0d00, state: XCTWaiterStateSucceeded> cleaning up `Loading Accessibility`
+15:48:30.858 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Enable gathering of localized strings' with timeout 70.00
+15:48:30.858 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1410, state: XCTWaiterStateInProgress> entering wait loop for 70.00s with expectations: `Enable gathering of localized strings`
+15:48:30.862 MiraclePillUITests-Runner[4413:1917956] <XCTWaiter: 0x2800f1410, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.862 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1410, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.862 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1410, state: XCTWaiterStateInProgress>.
+15:48:30.862 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1410, state: XCTWaiterStateSucceeded> cleaning up `Enable gathering of localized strings`
+15:48:30.862 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Set AX timeout to 60.00s' with timeout 65.00
+15:48:30.862 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1440, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Set AX timeout to 60.00s`
+15:48:30.863 MiraclePillUITests-Runner[4413:1917956] <XCTWaiter: 0x2800f1440, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.863 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1440, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.863 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1440, state: XCTWaiterStateInProgress>.
+15:48:30.863 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1440, state: XCTWaiterStateSucceeded> cleaning up `Set AX timeout to 60.00s`
+15:48:30.865 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Registering for kAXUserTestingNotification' with timeout 65.00
+15:48:30.866 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7f0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXUserTestingNotification`
+15:48:30.866 MiraclePillUITests-Runner[4413:1917953] <XCTWaiter: 0x2800fe7f0, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.867 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7f0, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.867 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fe7f0, state: XCTWaiterStateInProgress>.
+15:48:30.867 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7f0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXUserTestingNotification`
+15:48:30.867 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Registering for kAXAlertNotification' with timeout 65.00
+15:48:30.868 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f13b0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXAlertNotification`
+15:48:30.869 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800f13b0, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.869 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f13b0, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.869 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f13b0, state: XCTWaiterStateInProgress>.
+15:48:30.869 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f13b0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXAlertNotification`
+15:48:30.869 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Registering for kAXPidStatusChangedNotification' with timeout 65.00
+15:48:30.870 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7d0, state: XCTWaiterStateInProgress> entering wait loop for 65.00s with expectations: `Registering for kAXPidStatusChangedNotification`
+15:48:30.870 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800fe7d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.870 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7d0, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.870 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fe7d0, state: XCTWaiterStateInProgress>.
+15:48:30.870 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe7d0, state: XCTWaiterStateSucceeded> cleaning up `Registering for kAXPidStatusChangedNotification`
+15:48:30.870 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Request background assertion for test process' with timeout 30.00
+15:48:30.871 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe790, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request background assertion for test process`
+15:48:30.872 MiraclePillUITests-Runner[4413:1917953] Got reply for background assertion for 4413, acquired: YES.
+15:48:30.872 MiraclePillUITests-Runner[4413:1917953] <XCTWaiter: 0x2800fe790, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe790, state: XCTWaiterStateSucceeded> done waiting
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fe790, state: XCTWaiterStateInProgress>.
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe790, state: XCTWaiterStateSucceeded> cleaning up `Request background assertion for test process`
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] Test runner is already executing in the background.
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] Done initializing for UI testing.
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] Entering test execution event loop
+15:48:30.873 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testBundleWillStart:]
+15:48:30.874 MiraclePillUITests-Runner[4413:1917927] Loading test suite...
+15:48:30.902 MiraclePillUITests-Runner[4413:1917927] Finished loading test suite, took 0.028s
+15:48:30.902 MiraclePillUITests-Runner[4413:1917927] Running suite...
+Test Suite 'All tests' started at 2019-11-30 15:48:30.902
+15:48:30.903 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testSuiteWillStart:]
+15:48:30.899 xcodebuild[4414:239449] _XCT_testSuite:All tests didStartAt:2019-11-30 10:18:30 +0000
+15:48:34.808 xcodebuild[4414:239786] (LOG ARBITER) Rotating message buffer with 433 messages.
+15:48:36.900 xcodebuild[4414:239461] (LOG ARBITER) Rotating message buffer with 1220 messages.
+15:48:39.900 xcodebuild[4414:239680] (LOG ARBITER) Rotating message buffer with 1021 messages.
+15:48:41.041 xcodebuild[4414:239788] (LOG ARBITER) Dumping buffered message data; 2674 messages.
+15:48:39.917 MiraclePillUITests-Runner[4413:1918093] Got animations reply for com.sjvijay.MiraclePill (PID 4416)
+15:48:39.917 MiraclePillUITests-Runner[4413:1918093] Animations are not active.
+15:48:39.918 MiraclePillUITests-Runner[4413:1918093] com.sjvijay.MiraclePill (pid:4416) animationsHaveFinished 0 -> 1
+15:48:39.918 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] Posting KVO notifications for animationsHaveFinished
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] isQuiescent: self.eventLoopHasIdled: 1 && self.animationsHaveFinished: 1
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] KVO change: checked status of Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1': fulfill=1
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] Fulfilling (Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1' AND (Expect value of 'hasBridgedProcess' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1')) because all subexpectations are fulfilled
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] Fulfilling (Expect value of 'foreground' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR (Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1' AND (Expect value of 'hasBridgedProcess' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1')) OR Expect value of 'accessibilityActive' of com.sjvijay.MiraclePill (pid:4416) to be '0') because (Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1' AND (Expect value of 'hasBridgedProcess' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1')) is fulfilled
+15:48:39.919 MiraclePillUITests-Runner[4413:1918093] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded> done waiting
+    t =     9.02s Checking existence of `"successTxt" StaticText`
+15:48:39.921 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3cc07150> 2019-11-30 10:18:39 +0000: Wait for com.sjvijay.MiraclePill to idle (0.514205s)
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateInProgress>.
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded> cleaning up `(Expect value of 'foreground' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR (Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1' AND (Expect value of 'hasBridgedProcess' of com.sjvijay.MiraclePill (pid:4416) to be '0' OR Expect value of 'bridgedProcess.isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1')) OR Expect value of 'accessibilityActive' of com.sjvijay.MiraclePill (pid:4416) to be '0')`
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'foreground' of com.sjvijay.MiraclePill (pid:4416) to be '0'
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1'
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'hasBridgedProcess' of com.sjvijay.MiraclePill (pid:4416) to be '0'
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'bridgedProcess.isQuiescent' of com.sjvijay.MiraclePill (pid:4416) to be '1'
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'accessibilityActive' of com.sjvijay.MiraclePill (pid:4416) to be '0'
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] com.sjvijay.MiraclePill has quiesced or quiescence timeout has elapsed.
+15:48:39.922 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3ffc4b00> 2019-11-30 10:18:39 +0000: Tap "buyNowBtn" Image (0.655073s)
+15:48:39.920 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821c9f40> 2019-11-30 10:18:39 +0000: Wait for com.sjvijay.MiraclePill to idle (0.514205s)
+15:48:39.921 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821d0e10> 2019-11-30 10:18:39 +0000: Tap "buyNowBtn" Image (0.655073s)
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] KVO change: checked status of Expect value of 'isApplicationStateKnown' of Target Application 'com.sjvijay.MiraclePill' to be '1': fulfill=1
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded> entering wait loop for 60.00s with expectations: `Expect value of 'isApplicationStateKnown' of Target Application 'com.sjvijay.MiraclePill' to be '1'`
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateInProgress>.
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1a80, state: XCTWaiterStateSucceeded> cleaning up `Expect value of 'isApplicationStateKnown' of Target Application 'com.sjvijay.MiraclePill' to be '1'`
+15:48:39.923 MiraclePillUITests-Runner[4413:1917927] cleaning up Expect value of 'isApplicationStateKnown' of Target Application 'com.sjvijay.MiraclePill' to be '1'
+15:48:39.924 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821d0960> 2019-11-30 10:18:39 +0000: Checking existence of `"successTxt" StaticText`
+15:48:39.922 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3ffa3130> 2019-11-30 10:18:39 +0000: Checking existence of `"successTxt" StaticText`
+15:48:39.925 MiraclePillUITests-Runner[4413:1917927] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+15:48:39.925 MiraclePillUITests-Runner[4413:1917927] Creating future for 'remote query' with timeout 30.00
+15:48:39.926 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1c90, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+15:48:39.935 MiraclePillUITests-Runner[4413:1917956] <XCTWaiter: 0x2800f1c90, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1c90, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1c90, state: XCTWaiterStateInProgress>.
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1c90, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] results tree:
+Application, pid: 4416, label: 'MiraclePill'
+  Window (Main)
+    Other
+      Other
+        StaticText, identifier: 'successTxt', label: 'Order Successfully Placed'
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] matches: {(
+    StaticText, identifier: 'successTxt', label: 'Order Successfully Placed'
+)}
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] remote elements: {(
+)}
+15:48:39.935 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821d0960> 2019-11-30 10:18:39 +0000: Checking existence of `"successTxt" StaticText` (0.0118641s)
+15:48:39.933 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3ffa3130> 2019-11-30 10:18:39 +0000: Checking existence of `"successTxt" StaticText` (0.0118641s)
+    t =     9.03s Verify Label Text
+15:48:39.934 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3fd52190> 2019-11-30 10:18:39 +0000: Verify Label Text
+15:48:39.936 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821ca170> 2019-11-30 10:18:39 +0000: Verify Label Text
+15:48:39.937 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821cb390> 2019-11-30 10:18:39 +0000: Find the "successTxt" StaticText
+    t =     9.03s     Find the "successTxt" StaticText
+15:48:39.934 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3cd13b70> 2019-11-30 10:18:39 +0000: Find the "successTxt" StaticText
+15:48:39.938 MiraclePillUITests-Runner[4413:1917927] Checking for possible remote query evaluation: hasAutomationSession: YES, supportsRemoteEvaluation: YES
+15:48:39.938 MiraclePillUITests-Runner[4413:1917927] Creating future for 'remote query' with timeout 30.00
+15:48:39.939 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fd530, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `remote query`
+15:48:39.945 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800fd530, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:39.945 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fd530, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.945 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fd530, state: XCTWaiterStateInProgress>.
+15:48:39.945 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fd530, state: XCTWaiterStateSucceeded> cleaning up `remote query`
+15:48:39.945 MiraclePillUITests-Runner[4413:1917927] results tree:
+Application, pid: 4416, label: 'MiraclePill'
+  Window (Main)
+    Other
+      Other
+        StaticText, identifier: 'successTxt', label: 'Order Successfully Placed'
+15:48:39.946 MiraclePillUITests-Runner[4413:1917927] matches: {(
+    StaticText, identifier: 'successTxt', label: 'Order Successfully Placed'
+)}
+15:48:39.943 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3fd32690> 2019-11-30 10:18:39 +0000: Find the "successTxt" StaticText (0.008582s)
+15:48:39.946 MiraclePillUITests-Runner[4413:1917927] remote elements: {(
+)}
+15:48:39.946 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821cb390> 2019-11-30 10:18:39 +0000: Find the "successTxt" StaticText (0.008582s)
+    t =     9.04s Tear Down
+15:48:39.946 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821ca170> 2019-11-30 10:18:39 +0000: Verify Label Text (0.00988901s)
+15:48:39.943 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3cc060c0> 2019-11-30 10:18:39 +0000: Verify Label Text (0.00988901s)
+15:48:39.943 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3cb15340> 2019-11-30 10:18:39 +0000: Tear Down
+15:48:39.947 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821c9f40> 2019-11-30 10:18:39 +0000: Tear Down
+15:48:39.947 MiraclePillUITests-Runner[4413:1917927] Creating future for 'get screens' with timeout 30.00
+15:48:39.948 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+15:48:39.948 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.948 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fe660, state: XCTWaiterStateInProgress>.
+15:48:39.948 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 0
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Request screenshot' with timeout 30.00
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] Creating future for 'get screen scale' with timeout 30.00
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fede0, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fede0, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fede0, state: XCTWaiterStateInProgress>.
+15:48:39.949 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fede0, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+15:48:39.950 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request screenshot`
+15:48:39.986 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:39.986 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.986 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800fe660, state: XCTWaiterStateInProgress>.
+15:48:39.986 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800fe660, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+15:48:39.987 MiraclePillUITests-Runner[4413:1917927] Creating future for 'get screen scale' with timeout 30.00
+15:48:39.987 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1160, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+15:48:39.987 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1160, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.987 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1160, state: XCTWaiterStateInProgress>.
+15:48:39.987 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1160, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+15:48:39.991 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821cbb60> 2019-11-30 10:18:39 +0000: Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png'
+15:48:39.987 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3fdd1e20> 2019-11-30 10:18:39 +0000: Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png'
+    t =     9.09s     Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png'
+15:48:39.991 MiraclePillUITests-Runner[4413:1917927] Activity 1D9EB2EB-9194-4134-BE3B-6233A7A9793D added attachment with name 'Screenshot-Success page-Vijay Nirmal’s iPhone.png', UTI 'public.png', lifetime 'keepAlways', hasPayload: YES.
+15:48:39.991 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821cbb60> 2019-11-30 10:18:39 +0000: Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png' (0.000550985s)
+    t =     9.09s     Terminate com.sjvijay.MiraclePill:4416
+15:48:39.989 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf40106b50> 2019-11-30 10:18:39 +0000: Added attachment named 'Screenshot-Success page-Vijay Nirmal’s iPhone.png' (0.000550985s)
+15:48:39.992 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] started activity <XCActivityRecord: 0x2821cb390> 2019-11-30 10:18:39 +0000: Terminate com.sjvijay.MiraclePill:4416
+15:48:39.999 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] will start activity <XCActivityRecord: 0x7fdf3ff7e220> 2019-11-30 10:18:39 +0000: Terminate com.sjvijay.MiraclePill:4416
+15:48:39.992 MiraclePillUITests-Runner[4413:1917927] Creating future for 'get screens' with timeout 30.00
+15:48:39.992 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screens`
+15:48:39.992 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.992 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateInProgress>.
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded> cleaning up `get screens`
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] Request screenshot for frame {{inf, inf}, {0.0, 0.0}} of screen with ID 1, quality 1
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] Creating future for 'Request screenshot' with timeout 30.00
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] Creating future for 'get screen scale' with timeout 30.00
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1560, state: XCTWaiterStateSucceeded> entering wait loop for 30.00s with expectations: `get screen scale`
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1560, state: XCTWaiterStateSucceeded> done waiting
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1560, state: XCTWaiterStateInProgress>.
+15:48:39.993 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1560, state: XCTWaiterStateSucceeded> cleaning up `get screen scale`
+15:48:39.994 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateInProgress> entering wait loop for 30.00s with expectations: `Request screenshot`
+15:48:40.008 MiraclePillUITests-Runner[4413:1917952] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:40.008 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded> done waiting
+15:48:40.008 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateInProgress>.
+15:48:40.008 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f10c0, state: XCTWaiterStateSucceeded> cleaning up `Request screenshot`
+15:48:40.005 xcodebuild[4414:239449] Test runner session received request for termination of application with token 1
+15:48:40.005 xcodebuild[4414:239449] Terminating session for token 1 by canceling execution tracker <IDEExecutionOperationTracker: 0x7fdf3ffb4db0: Launch application com.sjvijay.MiraclePill for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x7fdf3ffb8720: subtrackers=none>"
+)>
+15:48:40.006 xcodebuild[4414:239449] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> ############## DID EXECUTE #################
+15:48:40.007 xcodebuild[4414:239449] Observed termination of tracker for token 1 for launch of com.sjvijay.MiraclePill at /Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app
+15:48:40.009 MiraclePillUITests-Runner[4413:1917927] Activity 34D2E110-128C-4D6E-9763-B8F3341E0494 added attachment with name 'kXCTAttachmentLegacyScreenImageData', UTI 'public.jpeg', lifetime 'deleteOnSuccess', hasPayload: YES.
+15:48:40.009 MiraclePillUITests-Runner[4413:1917956] Monitor: termination is being tracked for com.sjvijay.MiraclePill (pid:4416)
+15:48:40.009 MiraclePillUITests-Runner[4413:1917927] Using token to terminate <XCTRunnerIDESession: 0x2821f6bc0> via Xcode
+15:48:40.009 MiraclePillUITests-Runner[4413:1917927] Waiting for termination
+15:48:40.009 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1ae0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: `Expect predicate `running == 0` for object com.sjvijay.MiraclePill (pid:4416)`
+15:48:40.014 MiraclePillUITests-Runner[4413:1917952] Automation session connection to pid 4416 interrupted
+15:48:40.022 MiraclePillUITests-Runner[4413:1918093] Got exit status 0 for process with token 1
+15:48:40.022 MiraclePillUITests-Runner[4413:1918093] Got exit status 0 for process with token 1 -> com.sjvijay.MiraclePill (pid:4416)
+15:48:40.023 MiraclePillUITests-Runner[4413:1918093] Stop tracking process with token 1
+15:48:40.023 MiraclePillUITests-Runner[4413:1918093] Monitor: set (null) for token 1
+15:48:40.028 MiraclePillUITests-Runner[4413:1917952] Ignoring application state update to XCTApplicationRunStateUnknown for pid 4416
+15:48:40.223 MiraclePillUITests-Runner[4413:1917952] Handling kAXPidStatusChangedNotification
+15:48:40.223 MiraclePillUITests-Runner[4413:1917952] Got kAXPidStatusChangedNotification for 4416: suspended
+15:48:40.293 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:40.293 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:40.294 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:40.294 MiraclePillUITests-Runner[4413:1918093] Handling kAXUserTestingNotification
+15:48:40.303 MiraclePillUITests-Runner[4413:1917927] [AM:0] Processing state snapshot for com.sjvijay.MiraclePill
+15:48:40.303 MiraclePillUITests-Runner[4413:1918093] com.sjvijay.MiraclePill (pid:4416) accessibility active (loaded) 1 -> 0
+15:48:40.304 MiraclePillUITests-Runner[4413:1917927] Done setting pid for <XCUIApplicationImpl: 0x280c981b0 com.sjvijay.MiraclePill at /Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app> to 4416
+15:48:40.304 MiraclePillUITests-Runner[4413:1917927] App state updated for <XCUIApplicationImpl: 0x280c981b0 com.sjvijay.MiraclePill at /Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app>: Not Running (1)
+15:48:40.304 MiraclePillUITests-Runner[4413:1918093] com.sjvijay.MiraclePill (pid:4416) application state Running Foreground (4) -> Not Running (1)
+15:48:41.020 MiraclePillUITests-Runner[4413:1918093] <XCTWaiter: 0x2800f1ae0, state: XCTWaiterStateSucceeded>: cancelWaiting
+15:48:41.020 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1ae0, state: XCTWaiterStateSucceeded> done waiting
+15:48:41.021 MiraclePillUITests-Runner[4413:1917927] Canceling watchdog for <XCTWaiter: 0x2800f1ae0, state: XCTWaiterStateInProgress>.
+15:48:41.021 MiraclePillUITests-Runner[4413:1917927] <XCTWaiter: 0x2800f1ae0, state: XCTWaiterStateSucceeded> cleaning up `Expect predicate `running == 0` for object com.sjvijay.MiraclePill (pid:4416)`
+15:48:41.025 MiraclePillUITests-Runner[4413:1918093] com.sjvijay.MiraclePill (pid:4416) pid 4416 -> 0
+15:48:41.030 MiraclePillUITests-Runner[4413:1917952] Monitor: set (null) for pid 4416
+15:48:41.024 MiraclePillUITests-Runner[4413:1917927] <XCUIApplicationImpl: 0x280c981b0 com.sjvijay.MiraclePill at /Users/sjvijay/Library/Developer/Xcode/DerivedData/MiraclePill-gjkdepipsbdcucftdcdvbfgxsbuc/Build/Products/Debug-iphoneos/MiraclePill.app> changing currentProcess from com.sjvijay.MiraclePill (pid:0) to com.sjvijay.MiraclePill (pid:0)
+15:48:41.034 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3fc2f580> 2019-11-30 10:18:39 +0000: Terminate com.sjvijay.MiraclePill:4416 (1.03839s)
+15:48:41.030 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821cb390> 2019-11-30 10:18:39 +0000: Terminate com.sjvijay.MiraclePill:4416 (1.03839s)
+15:48:41.033 MiraclePillUITests-Runner[4413:1917953] com.sjvijay.MiraclePill (pid:0) application state Unknown (0) -> Not Running (1)
+15:48:41.035 MiraclePillUITests-Runner[4413:1917927] -[MiraclePillUITests testExample] finished activity <XCActivityRecord: 0x2821c9f40> 2019-11-30 10:18:39 +0000: Tear Down (1.0875s)
+15:48:41.035 xcodebuild[4414:239449] -[MiraclePillUITests.MiraclePillUITests testExample] did finish activity <XCActivityRecord: 0x7fdf3ad5ed40> 2019-11-30 10:18:39 +0000: Tear Down (1.0875s)
+Test Case '-[MiraclePillUITests.MiraclePillUITests testExample]' passed (10.136 seconds).
+15:48:41.041 xcodebuild[4414:239449] _XCT_testCaseDidFinishForTestClass:MiraclePillUITests.MiraclePillUITests method:testExample withStatus:passed duration:10.13575494289398
+15:48:41.040 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testCaseDidFinish:]
+15:48:41.043 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:48:41.043 xcodebuild[4414:239449] _XCT_testSuite:MiraclePillUITests didFinishAt:2019-11-30 10:18:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:10.13575494289398 totalDuration:10.13782095909119
+Test Suite 'MiraclePillUITests' passed at 2019-11-30 15:48:41.042.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.138) seconds
+Test Suite 'MiraclePillUITests.xctest' passed at 2019-11-30 15:48:41.048.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.145) seconds
+15:48:41.047 MiraclePillUITests-Runner[4413:1917927] Activity statistics for MiraclePillUITests:
+15:48:41.047 MiraclePillUITests-Runner[4413:1917927] 0.06s : Check for UI interruption
+15:48:41.047 MiraclePillUITests-Runner[4413:1917927] 0.35s : Resolve element query
+15:48:41.048 MiraclePillUITests-Runner[4413:1917927] 3.21s : Launch com.sjvijay.MiraclePill
+15:48:41.048 MiraclePillUITests-Runner[4413:1917927] 1.88s : Other
+15:48:41.056 xcodebuild[4414:239449] _XCT_testSuite:MiraclePillUITests.xctest didFinishAt:2019-11-30 10:18:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:10.13575494289398 totalDuration:10.14499497413635
+15:48:41.048 MiraclePillUITests-Runner[4413:1917927] 1.04s : Terminate com.sjvijay.MiraclePill
+15:48:41.048 MiraclePillUITests-Runner[4413:1917927] 3.54s : Wait for com.sjvijay.MiraclePill to idle
+Test Suite 'All tests' passed at 2019-11-30 15:48:41.055.
+	 Executed 1 test, with 0 failures (0 unexpected) in 10.136 (10.153) seconds
+15:48:41.048 MiraclePillUITests-Runner[4413:1917927] Total time in activities: 10.08s
+15:48:41.057 xcodebuild[4414:239449] _XCT_testSuite:All tests didFinishAt:2019-11-30 10:18:41 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:10.13575494289398 totalDuration:10.15308606624603
+15:48:41.049 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:48:41.052 MiraclePillUITests-Runner[4413:1917927] Activity statistics for MiraclePillUITests.xctest:
+15:48:41.053 MiraclePillUITests-Runner[4413:1917927] 0.06s : Check for UI interruption
+15:48:41.053 MiraclePillUITests-Runner[4413:1917927] 0.35s : Resolve element query
+15:48:41.053 MiraclePillUITests-Runner[4413:1917927] 3.21s : Launch com.sjvijay.MiraclePill
+15:48:41.054 MiraclePillUITests-Runner[4413:1917927] 1.88s : Other
+15:48:41.054 MiraclePillUITests-Runner[4413:1917927] 1.04s : Terminate com.sjvijay.MiraclePill
+15:48:41.061 xcodebuild[4414:239449] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+15:48:41.054 MiraclePillUITests-Runner[4413:1917927] 3.54s : Wait for com.sjvijay.MiraclePill to idle
+15:48:41.055 MiraclePillUITests-Runner[4413:1917927] Total time in activities: 10.08s
+15:48:41.055 MiraclePillUITests-Runner[4413:1917927] -[XCTRunnerIDESession testSuiteDidFinish:]
+15:48:41.060 MiraclePillUITests-Runner[4413:1917927] Activity statistics for All tests:
+15:48:41.090 xcodebuild[4414:239449] 📱<DVTiOSDevice (0x7fdf3fdf4460), Vijay Nirmal’s iPhone, iPhone, 12.2 (16E227), fa406f2531988baca17b06cce1c139237b99c7d6> ############## DID EXECUTE #################
+15:48:41.090 xcodebuild[4414:239853] <XCTTestRunnerSession: 0x7fdf3ff30c20> lost its connection.
+15:48:41.091 xcodebuild[4414:239449] <IDETestOperationCoordinator: 0x7fdf3ff25650> finished receiving data from testing launch session
+15:48:41.091 xcodebuild[4414:239449] <IDETestOperationCoordinator: 0x7fdf3ff25650>: _considerFlushingDelegateBlockQueue - nothing to flush
+15:48:41.091 xcodebuild[4414:239449] _finishWithError:(null)

@@ -1,0 +1,5 @@
+2019-11-30 10:18:25 +0000: Received worker from worker provider: 0x7fdf3fe37b20 [0: Vijay Nirmal’s iPhone (fa406f2531988baca17b06cce1c139237b99c7d6)]
+2019-11-30 10:18:30 +0000: Worker 0x7fdf3fe37b20 [4413: Vijay Nirmal’s iPhone (fa406f2531988baca17b06cce1c139237b99c7d6)] finished bootstrapping
+2019-11-30 10:18:30 +0000: Parallelization disabled; test execution driven by the test process
+2019-11-30 10:18:41 +0000: Worker 0x7fdf3fe37b20 [4413: Vijay Nirmal’s iPhone (fa406f2531988baca17b06cce1c139237b99c7d6)] finished successfully
+2019-11-30 10:18:41 +0000: Finished executing tests (cancelled: No)
