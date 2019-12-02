@@ -1,5 +1,5 @@
 //
-//  UtilityProtocols.swift
+//  UtilityExtensions.swift
 //  MiraclePillUITests
 //
 //  Created by Vijay Nirmal Jeromiyas on 28/11/19.

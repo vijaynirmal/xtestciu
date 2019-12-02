@@ -23,6 +23,14 @@ class HomePage : BasePage {
         return textField(name: "zipPostalCodeTxtBox")
     }
     
+    func getCoutryPickerBtn() -> XCUIElement{
+        return button(name: "countryPickerBtn")
+    }
+    
+    func tapCoutryPicker(value:String){
+        getApp().pickerWheels.element.adjust(toPickerWheelValue: value)
+    }
+    
     func tapBuyNowBtn() {
         XCUIApplication().images["buyNowBtn"].tap()
     }

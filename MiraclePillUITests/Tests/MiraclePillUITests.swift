@@ -10,28 +10,32 @@ import XCTest
 
 class MiraclePillUITests: BaseTest {
 
-    var homePage = HomePage()
-    var successPage = SuccessPage()
-    
-    
         func testExample() {
         
             XCUIDevice.shared.orientation = .faceUp
             
             assertExists(element: homePage.getFullNameTextField())
             homePage.getFullNameTextField().tap()
-            homePage.getFullNameTextField().typeText("Vijay")
-            
+            homePage.getFullNameTextField().typeText(datamanager.jsonParser(fileName: "HomePage", key: "userName"))
+           
             assertExists(element: homePage.getAddressTextField())
             homePage.getAddressTextField().tap()
-            homePage.getAddressTextField().typeText("Prisha Homes")
+            homePage.getAddressTextField().typeText(datamanager.jsonParser(fileName: "HomePage", key: "address"))
             
             
             tapDoneBtn()
             
+            assertExists(element: homePage.getCoutryPickerBtn())
+            homePage.getCoutryPickerBtn().tap()
+            
+            let country = datamanager.jsonParser(fileName: "HomePage", key: "country")
+            homePage.tapCoutryPicker(value: country)
+            
+              asserTrue(expression:verifyLabelTxt(element: homePage.getCoutryPickerBtn(), textToVerify: country))
+            
             assertExists(element: homePage.getZipTextField())
             homePage.getZipTextField().tap()
-            homePage.getZipTextField().typeText("600100")
+            homePage.getZipTextField().typeText(datamanager.jsonParser(fileName: "HomePage", key: "zipCode"))
             
             tapDoneBtn()
             

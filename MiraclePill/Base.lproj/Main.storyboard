@@ -19,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="miraclePillEmoji" translatesAutoresizingMaskIntoConstraints="NO" id="NVc-c0-vIe">
-                                <rect key="frame" x="162" y="64" width="90" height="90"/>
+                                <rect key="frame" x="199" y="64" width="16" height="16"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MIRACLE PILLS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQf-0p-ltJ">
-                                <rect key="frame" x="147.66666666666666" y="181" width="118.99999999999997" height="21"/>
+                                <rect key="frame" x="147.66666666666666" y="107" width="118.99999999999997" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -31,7 +31,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YG2-Hz-Yos">
-                                <rect key="frame" x="187.66666666666666" y="217" width="39" height="20.666666666666657"/>
+                                <rect key="frame" x="187.66666666666666" y="143" width="39" height="20.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -70,7 +70,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Name" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RIo-yw-l2C" userLabel="FULL NAME TEXT INPUT">
-                                <rect key="frame" x="66" y="285" width="293" height="30"/>
+                                <rect key="frame" x="66" y="211" width="293" height="30"/>
                                 <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration" identifier="fullnameTxtBox"/>
                                 <nil key="textColor"/>
@@ -81,7 +81,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Address" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8vH-Sw-VRT" userLabel="ADDRESS TEXT INPUT">
-                                <rect key="frame" x="66" y="358" width="293" height="30"/>
+                                <rect key="frame" x="66" y="284" width="293" height="30"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -91,7 +91,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Your Zip Code" textAlignment="natural" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KC5-YC-Cie" userLabel="ZIP/POSTAL CODE TEXT INPUT">
-                                <rect key="frame" x="66" y="515" width="293" height="30"/>
+                                <rect key="frame" x="66" y="441" width="293" height="30"/>
                                 <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -101,7 +101,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buyNowBtn" translatesAutoresizingMaskIntoConstraints="NO" id="DVl-8w-ZXK">
-                                <rect key="frame" x="94.666666666666686" y="608" width="225" height="45"/>
+                                <rect key="frame" x="199" y="534" width="16" height="16"/>
                                 <gestureRecognizers/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
@@ -191,13 +191,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="successIndicator" translatesAutoresizingMaskIntoConstraints="NO" id="6hR-a1-S8b">
-                                <rect key="frame" x="117" y="135" width="180" height="180"/>
+                                <rect key="frame" x="199" y="135" width="16" height="16"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="successImage"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Successfully Placed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gO-QS-thB" userLabel="OrderSuccess">
-                                <rect key="frame" x="106.66666666666669" y="331" width="201" height="21"/>
+                                <rect key="frame" x="106.66666666666669" y="167" width="201" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

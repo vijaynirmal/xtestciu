@@ -12,6 +12,9 @@ import XCTest
 class BaseTest : XCTestCase {
     
     lazy var app : XCUIApplication = XCUIApplication(bundleIdentifier: "com.sjvijay.MiraclePill")
+    lazy var homePage = HomePage()
+    lazy var successPage = SuccessPage()
+    lazy var datamanager = DataManager()
     
     override func setUp() {
         super.setUp()
@@ -47,4 +50,6 @@ class BaseTest : XCTestCase {
     func asserTrue(expression:Bool){
         XCTAssertTrue(expression)
     }
+    
+    
     }

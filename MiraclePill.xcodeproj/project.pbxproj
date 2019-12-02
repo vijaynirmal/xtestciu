@@ -14,13 +14,15 @@
 		F50CB842238914D400D02112 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F50CB840238914D400D02112 /* LaunchScreen.storyboard */; };
 		F50CB84D238914D400D02112 /* MiraclePillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CB84C238914D400D02112 /* MiraclePillTests.swift */; };
 		F50CB858238914D400D02112 /* MiraclePillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50CB857238914D400D02112 /* MiraclePillUITests.swift */; };
+		F52FB92A2393EF4F0012B08E /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F52FB9292393EF4F0012B08E /* DataManager.swift */; };
+		F52FB92E2393EFCD0012B08E /* HomePage.json in Resources */ = {isa = PBXBuildFile; fileRef = F52FB92D2393EFCD0012B08E /* HomePage.json */; };
 		F5444C63238ADAD8009034EF /* successPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5444C62238ADAD8009034EF /* successPageViewController.swift */; };
 		F5A760D523904AAC00F5C673 /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760D423904AAC00F5C673 /* BaseTest.swift */; };
 		F5A760D8239053F100F5C673 /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760D7239053F100F5C673 /* BasePage.swift */; };
 		F5A760DB2390546A00F5C673 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DA2390546A00F5C673 /* HomePage.swift */; };
 		F5A760DD2390566F00F5C673 /* SuccessPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DC2390566F00F5C673 /* SuccessPage.swift */; };
 		F5A760DF23905B2A00F5C673 /* BaseElementExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A760DE23905B2A00F5C673 /* BaseElementExtension.swift */; };
-		F5ED1AAD239021E0001BB217 /* UtilityProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */; };
+		F5ED1AAD239021E0001BB217 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1AAC239021E0001BB217 /* UtilityExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		F50CB853238914D400D02112 /* MiraclePillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50CB857238914D400D02112 /* MiraclePillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiraclePillUITests.swift; sourceTree = "<group>"; };
 		F50CB859238914D400D02112 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52FB9292393EF4F0012B08E /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F52FB92D2393EFCD0012B08E /* HomePage.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HomePage.json; sourceTree = "<group>"; };
 		F5444C62238ADAD8009034EF /* successPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = successPageViewController.swift; sourceTree = "<group>"; };
 		F5A760D423904AAC00F5C673 /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 		F5A760D7239053F100F5C673 /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
@@ -68,7 +72,7 @@
 		F5A760DC2390566F00F5C673 /* SuccessPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessPage.swift; sourceTree = "<group>"; };
 		F5A760DE23905B2A00F5C673 /* BaseElementExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseElementExtension.swift; sourceTree = "<group>"; };
 		F5ED1AA0238FC5A8001BB217 /* MiraclePillNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiraclePillNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityProtocols.swift; sourceTree = "<group>"; };
+		F5ED1AAC239021E0001BB217 /* UtilityExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +154,7 @@
 		F50CB856238914D400D02112 /* MiraclePillUITests */ = {
 			isa = PBXGroup;
 			children = (
+				F52FB92B2393EF6C0012B08E /* Data */,
 				F5126EE02391A510009BF424 /* Util */,
 				F5A760D92390543F00F5C673 /* Pages */,
 				F5A760D623904D7200F5C673 /* Tests */,
@@ -162,9 +167,18 @@
 		F5126EE02391A510009BF424 /* Util */ = {
 			isa = PBXGroup;
 			children = (
-				F5ED1AAC239021E0001BB217 /* UtilityProtocols.swift */,
+				F5ED1AAC239021E0001BB217 /* UtilityExtensions.swift */,
+				F52FB9292393EF4F0012B08E /* DataManager.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		F52FB92B2393EF6C0012B08E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F52FB92D2393EFCD0012B08E /* HomePage.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		F5A760D3239045BD00F5C673 /* Base */ = {
@@ -338,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52FB92E2393EFCD0012B08E /* HomePage.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +390,10 @@
 			files = (
 				F5A760DB2390546A00F5C673 /* HomePage.swift in Sources */,
 				F5A760DF23905B2A00F5C673 /* BaseElementExtension.swift in Sources */,
-				F5ED1AAD239021E0001BB217 /* UtilityProtocols.swift in Sources */,
+				F5ED1AAD239021E0001BB217 /* UtilityExtensions.swift in Sources */,
 				F5A760DD2390566F00F5C673 /* SuccessPage.swift in Sources */,
 				F5A760D8239053F100F5C673 /* BasePage.swift in Sources */,
+				F52FB92A2393EF4F0012B08E /* DataManager.swift in Sources */,
 				F5A760D523904AAC00F5C673 /* BaseTest.swift in Sources */,
 				F50CB858238914D400D02112 /* MiraclePillUITests.swift in Sources */,
 			);

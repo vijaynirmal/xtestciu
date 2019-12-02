@@ -12,17 +12,22 @@ import XCTest
 class BasePage {
     
     lazy var baseTest = BaseTest()
+    lazy var datamanager = DataManager()
+    
     
     func textField(name:String) -> XCUIElement {
-        return baseTest.getApp().textFields[name]
+        return getApp().textFields[name]
     }
     
     func button(name:String) -> XCUIElement {
-        return baseTest.getApp().buttons[name]
+        return getApp().buttons[name]
     }
     
     func label(name:String) -> XCUIElement {
-        return baseTest.getApp().staticTexts[name]
+        return getApp().staticTexts[name]
     }
    
+    func getApp() -> XCUIApplication {
+        return baseTest.getApp()
+    }
 }
